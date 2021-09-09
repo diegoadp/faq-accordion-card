@@ -33,42 +33,47 @@ body {
 
 .main-container {
     display: flex;
+    width: 65%;
+    height: max-content;
     justify-content: center;
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    margin: 18vh 16vw 1vh;
+    margin: 18vh auto 1vh;
 }
 
 .image-container {
-    width: 50em;
+    width: 30vw;
+    height: 30em;
+    position: relative;
+}
+
+.image-container-desktop {
+    width: 100%;
     height: 30em;
     overflow: hidden;
 }
 
-#img-bg-pattern {
+.img-bg-pattern {
     position: relative;
     width: 45em;
     height: auto;
     top: -10em;
     left: -21em;
-    z-index: 0;
 }
 
-#img-woman {
+.img-woman {
     position: relative;
     top: -40em;
     left: -5em;
-    z-index: 1;
 }
 
-#img-box {
+.img-box {
     position: absolute;
     width: auto;
     height: auto;
-    top: 22.5em;
-    left: 8.5em;
-    z-index: 2;
+    top: 13em;
+    left: -6em;
 }
 
 .faq-container {
