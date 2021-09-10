@@ -100,19 +100,16 @@ body {
 }
 
 .accordion.active, .accordion:hover {
+    color: var(--soft-red);
     font-weight: 700;
 }
 
 .accordion-content {
+    color: var(--dark-grayish-blue);
     max-height: 0;
     overflow: hidden;
-    transition: 0.4s ease-in-out;
+    transition: max-height 0.2s ease-out;
     margin-bottom: 10px;
-}
-
-.accordion-content.show {
-    color: var(--dark-grayish-blue);
-    max-height: 500px;
 }
 
 footer {
