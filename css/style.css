@@ -89,6 +89,7 @@ body {
 .accordion {
     display: flex;
     justify-content: space-between;
+    text-align: left;
     font-size: 15px;
     background-color: transparent;
     color: var(--very-dark-grayish-blue);
@@ -111,6 +112,7 @@ body {
 }
 
 .accordion-content {
+    width: 90%;
     color: var(--dark-grayish-blue);
     max-height: 0;
     overflow: hidden;
@@ -150,6 +152,9 @@ footer {
         margin-top: 0px;
         text-align: center;
     }
+    .accordion, .accordion-content {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -173,6 +178,9 @@ footer {
     }
     .img-woman {
         top: -65%;
+    }
+    footer {
+        font-size: 14px;
     }
 }
 
