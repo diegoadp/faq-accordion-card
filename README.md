@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://diegoadp.github.io/faq-accordion-card-main/](https://diegoadp.github.io/faq-accordion-card-main/)
+- Live Site URL: [https://diegoadp.github.io/faq-accordion-card/](https://diegoadp.github.io/faq-accordion-card/)
 
 ### Screenshot
 
